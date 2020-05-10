@@ -1,4 +1,4 @@
 accessing
-questions 
-
-	^users questions
+questions
+	
+	^users questions.
