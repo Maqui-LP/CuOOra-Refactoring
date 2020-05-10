@@ -11,7 +11,7 @@ testNewsRetrieveQuestions
 		newWithTitle: 'Which bad smell...?'
 		description: ''
 		user: user2
-		topic: topicOO2.
+		topics: topicOO2.
 	cuoora addQuestion: questionUser2TopicOO2 forUser: user2.
 	
 	self assert: (newsRetriever retrieveQuestions: user1) size equals: 2.
