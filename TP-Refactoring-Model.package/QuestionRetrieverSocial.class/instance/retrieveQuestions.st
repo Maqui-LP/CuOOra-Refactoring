@@ -1,5 +1,5 @@
 as yet unclassified
-retriveQuestion
+retrieveQuestions
 
 		
 			^((context myFollowingQuestions)
