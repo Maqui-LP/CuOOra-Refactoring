@@ -16,12 +16,14 @@ setUp
 	cuoora addUser: user1; addUser: user2; addUser: user3.
 	
 	questionUser1TopicOO1 := Question newWithTitle: 'How to create a class in Pharo' description: '' user: user1 topics: topicOO1.
+	topicOO1 addQuestion: questionUser1TopicOO1.
 	questionUser3TopicOO2 := Question newWithTitle: 'How to create a WAComponent for...' description: '' user: user3 topics: topicOO2.
-
+	topicOO2 addQuestion: questionUser3TopicOO2.
+	
 	user1 addQuestion: questionUser1TopicOO1.
 	user3 addQuestion: questionUser3TopicOO2.
 	
-	socialRetriever := QuestionRetriever new: cuoora and: #social.
-	topicsRetriever := QuestionRetriever new: cuoora and: #topics.
-	newsRetriever := QuestionRetriever new: cuoora and: #news.
-	popularTodayRetriever := QuestionRetriever new: cuoora and: #popularToday.
+	socialRetriever := QuestionRetrieverSocial withContext: cuoora.
+	topicsRetriever := QuestionRetrieverTopics withContext: cuoora.
+	newsRetriever := QuestionRetrieverNews withContext: cuoora.
+	popularTodayRetriever := QuestionRetrieverPopularTodays withContext: cuoora.

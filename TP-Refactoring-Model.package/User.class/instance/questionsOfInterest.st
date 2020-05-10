@@ -1,3 +1,3 @@
 accessing
 questionsOfInterest
-	^ questionRetriever retrieveQuestions.
+	^ questionRetriever retrieveQuestions:self.
