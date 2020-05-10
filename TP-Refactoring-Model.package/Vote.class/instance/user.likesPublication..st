@@ -1,3 +1,4 @@
 instance creation
 user: aUser likesPublication: aPublication
-	^ (self new) user: aUser likesPublication: aPublication
+	user := aUser. 
+	publication := aPublication.
