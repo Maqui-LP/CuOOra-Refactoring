@@ -1,4 +1,3 @@
 accessing
 questions
-	
-	^users questions.
+	^ users flatCollect: [ :user | user questions ]
