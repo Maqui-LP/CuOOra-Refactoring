@@ -18,8 +18,8 @@ setUp
 	questionUser1TopicOO1 := Question newWithTitle: 'How to create a class in Pharo' description: '' user: user1 topics: topicOO1.
 	questionUser3TopicOO2 := Question newWithTitle: 'How to create a WAComponent for...' description: '' user: user3 topics: topicOO2.
 
-	cuoora addQuestion: questionUser1TopicOO1 forUser:user1.
-	cuoora addQuestion: questionUser3TopicOO2 forUser:user3.
+	user1 addQuestion: questionUser1TopicOO1.
+	user3 addQuestion: questionUser3TopicOO2.
 	
 	socialRetriever := QuestionRetriever new: cuoora and: #social.
 	topicsRetriever := QuestionRetriever new: cuoora and: #topics.

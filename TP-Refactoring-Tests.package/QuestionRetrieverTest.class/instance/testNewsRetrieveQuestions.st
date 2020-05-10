@@ -1,6 +1,5 @@
 testing
 testNewsRetrieveQuestions
-	| questionUser2TopicOO2 |
 	self assert: (newsRetriever retrieveQuestions: user1) size equals: 1.
 	self assert: (newsRetriever retrieveQuestions: user1) last equals: questionUser3TopicOO2.
 	self assert: (newsRetriever retrieveQuestions: user2) size equals: 2.
@@ -12,7 +11,7 @@ testNewsRetrieveQuestions
 		description: ''
 		user: user2
 		topics: topicOO2.
-	cuoora addQuestion: questionUser2TopicOO2 forUser: user2.
+	user2 addQuestion: questionUser2TopicOO2.
 	
 	self assert: (newsRetriever retrieveQuestions: user1) size equals: 2.
 	self assert: (newsRetriever retrieveQuestions: user2) size equals: 2.

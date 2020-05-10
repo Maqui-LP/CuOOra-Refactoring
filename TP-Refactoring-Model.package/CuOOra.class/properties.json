@@ -7,8 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"users",
-		"topics",
-		"questions"
+		"topics"
 	],
 	"name" : "CuOOra",
 	"type" : "normal"

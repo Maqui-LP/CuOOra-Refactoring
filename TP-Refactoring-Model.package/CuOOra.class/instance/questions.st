@@ -1,3 +1,3 @@
 accessing
-questions
-	^ questions
+questions 
+	^(users flatCollect: [ :user | user questions ])

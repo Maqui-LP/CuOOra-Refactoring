@@ -1,6 +1,5 @@
 testing
 testSocialRetrieveQuestions
-	| questionUser2TopicOO2 |
 	
 	self assert: (socialRetriever retrieveQuestions: user1) size equals: 1.
 	self assert: (socialRetriever retrieveQuestions: user1) first equals: questionUser3TopicOO2.
@@ -10,7 +9,7 @@ testSocialRetrieveQuestions
 	
 	questionUser2TopicOO2 := Question newWithTitle: 'Which bad smell...?' description: '' user: user2 topics: topicOO2.
 	questionUser2TopicOO2 addVote: (Vote user: user2 dislikesPublication: questionUser2TopicOO2).
-	cuoora addQuestion: questionUser2TopicOO2 forUser:user2.
+	user2 addQuestion: questionUser2TopicOO2.
 	
 	self assert: (socialRetriever retrieveQuestions: user1) size equals: 2.
 	self assert: (socialRetriever retrieveQuestions: user1) last equals: questionUser2TopicOO2.
