@@ -1,3 +1,4 @@
 accessing
 questions
-	^ questions
+	
+	^ posts select:[:each | each isQuestion].

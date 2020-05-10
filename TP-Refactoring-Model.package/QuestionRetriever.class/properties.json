@@ -1,13 +1,12 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "Nico 5/10/2020 11:44",
 	"super" : "Object",
 	"category" : "TP-Refactoring-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"option",
-		"cuoora"
+		"context"
 	],
 	"name" : "QuestionRetriever",
 	"type" : "normal"

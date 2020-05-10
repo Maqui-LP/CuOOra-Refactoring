@@ -1,3 +1,3 @@
 accessing
 answers
-	^ answers
+	^posts reject:[:each | each isQuestion].
