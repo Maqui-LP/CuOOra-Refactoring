@@ -9,7 +9,8 @@
 		"timestamp",
 		"user",
 		"votes",
-		"description"
+		"description",
+		"isQuestion"
 	],
 	"name" : "Post",
 	"type" : "normal"

@@ -3,4 +3,5 @@ newWithTitle: aTitle description: aDescription user: aUser topics: aTopic
 	title := aTitle.
 	description := aDescription.
 	user := aUser.
-	topics add: aTopic
+	topics add: aTopic.
+	isQuestion := true.
