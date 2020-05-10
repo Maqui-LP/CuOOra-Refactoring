@@ -1,3 +1,4 @@
 accessing
 addQuestion: aQuestion
-	questions add: aQuestion
+	"questions add: aQuestion."
+	posts add: aQuestion.

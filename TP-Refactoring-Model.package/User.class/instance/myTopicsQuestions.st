@@ -1,4 +1,4 @@
 as yet unclassified
 myTopicsQuestions
 
-		^topics questions.
+		^topics flatCollect:[:each | each questions].

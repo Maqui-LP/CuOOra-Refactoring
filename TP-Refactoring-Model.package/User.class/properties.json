@@ -13,8 +13,7 @@
 		"username",
 		"password",
 		"topics",
-		"following",
-		"votes"
+		"following"
 	],
 	"name" : "User",
 	"type" : "normal"
