@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "TP-Refactoring-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"topic1",
+		"topic2",
+		"topics1",
+		"topics2",
+		"question1",
+		"question2"
+	],
+	"name" : "TopicTest",
+	"type" : "normal"
+}

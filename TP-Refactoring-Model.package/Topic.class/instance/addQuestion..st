@@ -1,3 +1,3 @@
 accessing
-addQuestion: aQuetion
-	questions add: aQuetion 
+addQuestion: aQuestion
+	questions add: aQuestion 
