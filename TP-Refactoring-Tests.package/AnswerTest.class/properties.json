@@ -6,7 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"answer"
+		"answer",
+		"user1",
+		"user2",
+		"like",
+		"dislike"
 	],
 	"name" : "AnswerTest",
 	"type" : "normal"

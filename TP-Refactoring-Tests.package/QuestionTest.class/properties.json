@@ -6,9 +6,14 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"user1",
+		"user2",
 		"question",
 		"topics",
-		"topic"
+		"topic",
+		"answer",
+		"like",
+		"dislike"
 	],
 	"name" : "QuestionTest",
 	"type" : "normal"

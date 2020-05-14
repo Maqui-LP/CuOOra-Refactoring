@@ -1,3 +1,5 @@
 setup
 setUp
-	answer := Answer newWithDescription: 'An answer'  User:(User new).
+	self setUpUser.
+	self setUpVotes.
+	self setUpAnswer.
