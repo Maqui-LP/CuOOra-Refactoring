@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "TP-Refactoring-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"user1",
+		"user2",
+		"topic1",
+		"topic2",
+		"topics",
+		"question1",
+		"question2",
+		"answer2",
+		"answer1",
+		"topics2"
+	],
+	"name" : "UserTest",
+	"type" : "normal"
+}

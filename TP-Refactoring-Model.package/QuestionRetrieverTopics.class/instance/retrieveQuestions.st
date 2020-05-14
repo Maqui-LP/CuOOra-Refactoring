@@ -1,7 +1,7 @@
 as yet unclassified
 retrieveQuestions 
 
-			^((context myTopicsQuestions)
+			^((context testMyTopicsQuestions)
 				asSortedCollection:[ :a :b | a positiveVotes size > b positiveVotes size ])takeFirst: 100.
 
 	
