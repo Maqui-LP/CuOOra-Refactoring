@@ -1,6 +1,5 @@
 accessing
 positiveVotes
-	| r |
-	r := OrderedCollection new.
-	votes do:[:vote | vote isLike ifTrue:[r add: vote]].
-	^r
+
+	^votes select:[:vote | vote isLike].
+	
