@@ -1,4 +1,5 @@
 as yet unclassified
-questionsFilter: anUser
+questionsFilter: aUser
 
-	^anUser myFollowingQuestions.
+	
+	^self filterQuestionsFollowers:aUser following.

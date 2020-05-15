@@ -1,4 +1,4 @@
 as yet unclassified
-questionsFilter: anUser
+questionsFilter: aUser
 
-	^anUser myTopicsQuestions.
+	^self filterQuestionsTopics: aUser topics.
