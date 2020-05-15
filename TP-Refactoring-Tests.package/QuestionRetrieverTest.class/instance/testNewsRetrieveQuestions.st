@@ -10,7 +10,7 @@ testNewsRetrieveQuestions
 		newWithTitle: 'Which bad smell...?'
 		description: ''
 		user: user2
-		topics: topicOO2.
+		topics: (OrderedCollection with: topicOO2).
 	user2 addQuestion: questionUser2TopicOO2.
 	
 	self assert: (newsRetriever retrieveQuestions: user1) size equals: 2.

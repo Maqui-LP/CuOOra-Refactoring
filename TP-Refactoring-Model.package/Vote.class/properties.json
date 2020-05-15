@@ -8,7 +8,6 @@
 	"instvars" : [
 		"isLike",
 		"timstamp",
-		"publication",
 		"user"
 	],
 	"name" : "Vote",

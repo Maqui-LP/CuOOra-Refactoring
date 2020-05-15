@@ -15,9 +15,9 @@ setUp
 	cuoora := CuOOra new.
 	cuoora addUser: user1; addUser: user2; addUser: user3.
 	
-	questionUser1TopicOO1 := Question newWithTitle: 'How to create a class in Pharo' description: '' user: user1 topics: topicOO1.
+	questionUser1TopicOO1 := Question newWithTitle: 'How to create a class in Pharo' description: '' user: user1 topics: (OrderedCollection with:topicOO1).
 	topicOO1 addQuestion: questionUser1TopicOO1.
-	questionUser3TopicOO2 := Question newWithTitle: 'How to create a WAComponent for...' description: '' user: user3 topics: topicOO2.
+	questionUser3TopicOO2 := Question newWithTitle: 'How to create a WAComponent for...' description: '' user: user3 topics: (OrderedCollection with:topicOO2).
 	topicOO2 addQuestion: questionUser3TopicOO2.
 	
 	user1 addQuestion: questionUser1TopicOO1.

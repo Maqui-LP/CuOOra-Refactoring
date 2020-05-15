@@ -8,8 +8,6 @@
 	"instvars" : [
 		"questionRetriever",
 		"posts",
-		"questions",
-		"answers",
 		"username",
 		"password",
 		"topics",
