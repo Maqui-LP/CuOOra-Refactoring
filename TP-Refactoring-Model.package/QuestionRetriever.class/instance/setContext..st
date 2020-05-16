@@ -1,4 +1,4 @@
 initialization
-setContext: anObject
+setContext: aContext
 
-	context := anObject.
+	context := aContext.
